@@ -1,0 +1,612 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.44f1 (c3ae09b9f03c) revision 12824073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16008 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.44f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Data/Unity2D/bladeoflumora
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49989
+Successfully changed project path to: D:/Data/Unity2D/bladeoflumora
+D:/Data/Unity2D/bladeoflumora
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24312]  Target information:
+
+Player connection [24312]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3026234467 [EditorId] 3026234467 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2F77F3H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24312]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 3026234467 [EditorId] 3026234467 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2F77F3H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24312] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24312] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 43.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.44f1 (c3ae09b9f03c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Data/Unity2D/bladeoflumora/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a6)
+    Vendor:   Intel
+    VRAM:     8004 MB
+    Driver:   31.0.101.4255
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.036084 seconds.
+- Loaded All Assemblies, in  1.691 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1185 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.661 seconds
+Domain Reload Profiling: 4347ms
+	BeginReloadAssembly (541ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (160ms)
+	RebuildNativeTypeToScriptingClass (52ms)
+	initialDomainReloadingComplete (289ms)
+	LoadAllAssembliesAndSetupDomain (643ms)
+		LoadAssemblies (543ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (632ms)
+			TypeCache.Refresh (628ms)
+				TypeCache.ScanAssembly (578ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (2662ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2448ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1619ms)
+			SetLoadedEditorAssemblies (26ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (18ms)
+			ProcessInitializeOnLoadAttributes (579ms)
+			ProcessInitializeOnLoadMethodAttributes (206ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.327 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.014 seconds
+Domain Reload Profiling: 5337ms
+	BeginReloadAssembly (410ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (112ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (156ms)
+	LoadAllAssembliesAndSetupDomain (1602ms)
+		LoadAssemblies (1045ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (810ms)
+			TypeCache.Refresh (681ms)
+				TypeCache.ScanAssembly (614ms)
+			ScanForSourceGeneratedMonoScriptInfo (102ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (3016ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2321ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (83ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (277ms)
+			ProcessInitializeOnLoadAttributes (1753ms)
+			ProcessInitializeOnLoadMethodAttributes (172ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 16.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4027 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (241.6 KB). Loaded Objects now: 4492.
+Memory consumption went from 141.1 MB to 140.9 MB.
+Total: 12.538200 ms (FindLiveObjects: 0.690100 ms CreateObjectMapping: 0.781300 ms MarkObjects: 10.459900 ms  DeleteObjects: 0.603300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18206.336094 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_199.asset
+  artifactKey: Guid(69246852978e97e44a6853415d83e623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_199.asset using Guid(69246852978e97e44a6853415d83e623) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b4191b6377cf4fa604de828952656ab9') in 0.246543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_214.asset
+  artifactKey: Guid(655490889d72a1d47b329b966d3ee232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_214.asset using Guid(655490889d72a1d47b329b966d3ee232) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4f431425eca90098bb34aedd4ce38385') in 0.020939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_207.asset
+  artifactKey: Guid(318dc79d5a78c07418edaf626f1355b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_207.asset using Guid(318dc79d5a78c07418edaf626f1355b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'da9d19f0510ad599d14e4aa4b1cdeeea') in 0.019273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_206.asset
+  artifactKey: Guid(4c8b71c209da27c428a6ccc23f27b116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_206.asset using Guid(4c8b71c209da27c428a6ccc23f27b116) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c0216293d0ae9a85053b69163254541e') in 0.018961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_218.asset
+  artifactKey: Guid(0cad674d03d261b40b6624021d90f616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_218.asset using Guid(0cad674d03d261b40b6624021d90f616) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '96feaba48c703d53ed72d49dc9f419c2') in 0.010481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_204.asset
+  artifactKey: Guid(41b825c50d4056c4aa5f5b0f6bf858cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_204.asset using Guid(41b825c50d4056c4aa5f5b0f6bf858cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '68e300740752db1682821a37d937a9f2') in 0.019282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_211.asset
+  artifactKey: Guid(7dac16d14110a7a46a9204d31922bc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_211.asset using Guid(7dac16d14110a7a46a9204d31922bc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f0a677964e446a3e7a806bf4247ddd35') in 0.019611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_209.asset
+  artifactKey: Guid(aea84de1abf293d4590476a9d00c163b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_209.asset using Guid(aea84de1abf293d4590476a9d00c163b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f58b0046ddb8210338a276bfab6e1cd2') in 0.018632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_216.asset
+  artifactKey: Guid(b3090ec55988f884683a511781491e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_216.asset using Guid(b3090ec55988f884683a511781491e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0cb0d1b2f763809f5e82d632039bed0f') in 0.018319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_210.asset
+  artifactKey: Guid(c7824862bee4a234a8e4011a73b7f4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_210.asset using Guid(c7824862bee4a234a8e4011a73b7f4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3825b57eb7b6684b0f8c01948773492c') in 0.020049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.472392 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_221.asset
+  artifactKey: Guid(2889a514ee04edb42813c489b28a3cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_221.asset using Guid(2889a514ee04edb42813c489b28a3cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '64d84c98bbaed917fc8a0f251be8b945') in 0.025019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_237.asset
+  artifactKey: Guid(175b8d5d54b57394d95b6e6949729a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_237.asset using Guid(175b8d5d54b57394d95b6e6949729a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'adac8ef99811c9bcbb14e93ee49f59c8') in 0.018885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_225.asset
+  artifactKey: Guid(4a2c3c441fd36cb40a6794782e18c60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_225.asset using Guid(4a2c3c441fd36cb40a6794782e18c60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5e44e03734ff03f305f452dcc9279980') in 0.020215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_259.asset
+  artifactKey: Guid(fc25f7fe0ec0749478f475675af44b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_259.asset using Guid(fc25f7fe0ec0749478f475675af44b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '426f0684dee2f2637015df03df3745ed') in 0.008602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_264.asset
+  artifactKey: Guid(82ea13a7fbca25f4f949d66c31a4490e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_264.asset using Guid(82ea13a7fbca25f4f949d66c31a4490e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '176891dec98e3848c0d250ef380482fc') in 0.007917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_261.asset
+  artifactKey: Guid(b6e7ce4b3d3f86548bb491651e4ddc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_261.asset using Guid(b6e7ce4b3d3f86548bb491651e4ddc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd3c15045c90822e44988ab4ad4440a4c') in 0.017986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_223.asset
+  artifactKey: Guid(37ce7234a05d24b4b82c9584f505d742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_223.asset using Guid(37ce7234a05d24b4b82c9584f505d742) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8d87261f2ad0ca062b74cffc7fd5ce6c') in 0.020796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_231.asset
+  artifactKey: Guid(ddb151232334d8440a9a1901d8263c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_231.asset using Guid(ddb151232334d8440a9a1901d8263c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ee5ea3d1898cd3ced7d74fb41e134293') in 0.018918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_248.asset
+  artifactKey: Guid(1d043c8ca4081db4f9f9750b1c0c832c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_248.asset using Guid(1d043c8ca4081db4f9f9750b1c0c832c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '536bf75c65f3a6c741b58a983d25c35e') in 0.018330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_240.asset
+  artifactKey: Guid(dfa848a5c6c05f64bb0d723c9fbd42a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_240.asset using Guid(dfa848a5c6c05f64bb0d723c9fbd42a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4a210ad8520aa141be0f531b50f3483b') in 0.019449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_244.asset
+  artifactKey: Guid(df8cc134f9b929840919b38df041a11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_244.asset using Guid(df8cc134f9b929840919b38df041a11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e89b5c84fe0a6dbf648c43a2f77170da') in 0.019269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_252.asset
+  artifactKey: Guid(21ecf708e825bb24e9e9ee4d557ad98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_252.asset using Guid(21ecf708e825bb24e9e9ee4d557ad98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cbb04bbccb1b41722644ac5e59afb93d') in 0.021072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008330 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_228.asset
+  artifactKey: Guid(3c34cb46b1c34254d9e5cc9dd2e99252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_228.asset using Guid(3c34cb46b1c34254d9e5cc9dd2e99252) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'adf0ab29771c5ae2ae7ceb21c26e24d5') in 0.019856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_257.asset
+  artifactKey: Guid(4431becdbdf47a24ba6447fb75babf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_257.asset using Guid(4431becdbdf47a24ba6447fb75babf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '89f9fa8a41e4bd0a2def9622ed9a3d79') in 0.009039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_243.asset
+  artifactKey: Guid(4d1cd49ec09c08e4b917409fb69efd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_243.asset using Guid(4d1cd49ec09c08e4b917409fb69efd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1b03a5a2e1322390915a1e6a1acc3110') in 0.020629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_226.asset
+  artifactKey: Guid(b448604499fabcc44805036c1bff1ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_226.asset using Guid(b448604499fabcc44805036c1bff1ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c3f7df6942cf13fcc9e721a53b549fab') in 0.020920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_232.asset
+  artifactKey: Guid(fb0ec0a9d991e214dabfb4f83728d6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_232.asset using Guid(fb0ec0a9d991e214dabfb4f83728d6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '44309bea3520ba6fd004ee8d0c1381ef') in 0.019127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_238.asset
+  artifactKey: Guid(12b22b385fead1c49ad203b3ed00aa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_238.asset using Guid(12b22b385fead1c49ad203b3ed00aa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7665f157864f6a56fb4bd2afd0081c33') in 0.020295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_262.asset
+  artifactKey: Guid(e3fc24e3a1c49d84caf56edd2a6d9d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_262.asset using Guid(e3fc24e3a1c49d84caf56edd2a6d9d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '173fb1f36f83e69041c9406c97f4081b') in 0.019322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_235.asset
+  artifactKey: Guid(c21f6aea4f7d0fe48a28e4b3b943108e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_235.asset using Guid(c21f6aea4f7d0fe48a28e4b3b943108e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cab139b640498ba07b52ae2dafb0d840') in 0.018536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_250.asset
+  artifactKey: Guid(e8afb9a51b01a4840b78a528691fdb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_250.asset using Guid(e8afb9a51b01a4840b78a528691fdb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1c47b154fa6e47c820ca23b5b9174e56') in 0.018969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FantasySwampTiles_Sliced/Terrain_and_Props_253.asset
+  artifactKey: Guid(97c7367a6897d1244b71c6cde36c31a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasySwampTiles_Sliced/Terrain_and_Props_253.asset using Guid(97c7367a6897d1244b71c6cde36c31a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '410e878e89dea31fec093c8eebb77c29') in 0.020280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.718 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.511 seconds
+Domain Reload Profiling: 1230ms
+	BeginReloadAssembly (355ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (204ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (308ms)
+		LoadAssemblies (352ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (511ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (368ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (265ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4023 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (213.6 KB). Loaded Objects now: 4505.
+Memory consumption went from 144.5 MB to 144.3 MB.
+Total: 5.046400 ms (FindLiveObjects: 0.225400 ms CreateObjectMapping: 0.100700 ms MarkObjects: 4.497200 ms  DeleteObjects: 0.221600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Bandit.cs: ca1d73c4f52e2ca39eaf8f2ec521b8f3 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Sensor_Bandit.cs: b82e7b91239162915bd4535dd2e23f94 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e7f9fd8fd04c5d1f03bdd56dc518de9d -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1254.311391 seconds.
+  path: Assets/Bandits - Pixel Art
+  artifactKey: Guid(fcb5678ac5324da4087ba243179b12ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bandits - Pixel Art using Guid(fcb5678ac5324da4087ba243179b12ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '50d9c015f8819f90ed651c2cb36c4eeb') in 0.001728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.630301 seconds.
+  path: Assets/Bandits - Pixel Art/Animations
+  artifactKey: Guid(5b4588478efd7c244b598df63562b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bandits - Pixel Art/Animations using Guid(5b4588478efd7c244b598df63562b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f0f180a2669098d1221a5e2508d428c6') in 0.000433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.560247 seconds.
+  path: Assets/Bandits - Pixel Art/Animations/Heavy Bandit
+  artifactKey: Guid(0a9ac01b012ca8649817c0e5f2283a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bandits - Pixel Art/Animations/Heavy Bandit using Guid(0a9ac01b012ca8649817c0e5f2283a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '34acf1759afd22c9a9d9a6691b39d52d') in 0.000492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.060332 seconds.
+  path: Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_AnimController.overrideController
+  artifactKey: Guid(b810f2280bb2a6b4cbf996716e6e3d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bandits - Pixel Art/Animations/Heavy Bandit/HeavyBandit_AnimController.overrideController using Guid(b810f2280bb2a6b4cbf996716e6e3d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ea3f831cfd3ee5eead3df99f974a125b') in 0.011613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 1.965420 seconds.
+  path: Assets/Bandits - Pixel Art/Animations/Light Bandit
+  artifactKey: Guid(589cc16c1bd89934ab5ca6f7d9a33cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bandits - Pixel Art/Animations/Light Bandit using Guid(589cc16c1bd89934ab5ca6f7d9a33cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b2f075ec3b6d149a4af0fbced323848f') in 0.000485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.037553 seconds.
+  path: Assets/Bandits - Pixel Art/Demo
+  artifactKey: Guid(b9bf6a2a159e69745b7810af3ec3f575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bandits - Pixel Art/Demo using Guid(b9bf6a2a159e69745b7810af3ec3f575) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd46d4fb0a8305dc4757f7f01be9afbb0') in 0.000541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.048340 seconds.
+  path: Assets/Bandits - Pixel Art/Demo/HeavyBandit.prefab
+  artifactKey: Guid(3248535f6a2562c489a1223a75951ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bandits - Pixel Art/Demo/HeavyBandit.prefab using Guid(3248535f6a2562c489a1223a75951ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bbfd03eb4f69bd24fe60e75bdcbfb91f') in 0.000579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
